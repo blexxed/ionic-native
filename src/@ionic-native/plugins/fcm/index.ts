@@ -42,8 +42,8 @@ export interface NotificationData {
  *     console.log("Received in background");
  *   } else {
  *     console.log("Received in foreground");
- *   };
- * })
+ *   }
+ * });
  *
  * fcm.onTokenRefresh().subscribe(token=>{
  *   backend.registerToken(token);
